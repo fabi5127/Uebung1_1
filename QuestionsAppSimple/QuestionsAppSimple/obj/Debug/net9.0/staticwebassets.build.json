@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "n/9qg4wazZZCqroVRqNSJFhtiffLaBSZznImzb4e3JU=",
+  "Source": "QuestionsAppSimple",
+  "BasePath": "_content/QuestionsAppSimple",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "QuestionsAppSimple\\wwwroot",
+      "Source": "QuestionsAppSimple",
+      "ContentRoot": "C:\\Users\\fabia\\Uebung1_1\\QuestionsAppSimple\\QuestionsAppSimple\\wwwroot\\",
+      "BasePath": "_content/QuestionsAppSimple",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\fabia\\Uebung1_1\\QuestionsAppSimple\\QuestionsAppSimple\\obj\\Debug\\net9.0\\compressed\\u10xmc0ym8-35aw746c2x.gz",
+      "SourceId": "QuestionsAppSimple",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fabia\\Uebung1_1\\QuestionsAppSimple\\QuestionsAppSimple\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/QuestionsAppSimple",
+      "RelativePath": "index#[.{fingerprint=35aw746c2x}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\fabia\\Uebung1_1\\QuestionsAppSimple\\QuestionsAppSimple\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3uielzcklg",
+      "Integrity": "27cPLxSTZClHHMmdO4KCnjavMTaZbyMqgFpSF5yVav4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\fabia\\Uebung1_1\\QuestionsAppSimple\\QuestionsAppSimple\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\fabia\\Uebung1_1\\QuestionsAppSimple\\QuestionsAppSimple\\wwwroot\\index.html",
+      "SourceId": "QuestionsAppSimple",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fabia\\Uebung1_1\\QuestionsAppSimple\\QuestionsAppSimple\\wwwroot\\",
+      "BasePath": "_content/QuestionsAppSimple",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "35aw746c2x",
+      "Integrity": "V1LA7CiH2RVYTJ6KOj1AGL3ncUMUAZff1k8CLn+hyQM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.35aw746c2x.html",
+      "AssetFile": "C:\\Users\\fabia\\Uebung1_1\\QuestionsAppSimple\\QuestionsAppSimple\\obj\\Debug\\net9.0\\compressed\\u10xmc0ym8-35aw746c2x.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000652315721"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1532"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"27cPLxSTZClHHMmdO4KCnjavMTaZbyMqgFpSF5yVav4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 14:03:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"V1LA7CiH2RVYTJ6KOj1AGL3ncUMUAZff1k8CLn+hyQM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "35aw746c2x"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V1LA7CiH2RVYTJ6KOj1AGL3ncUMUAZff1k8CLn+hyQM="
+        }
+      ]
+    },
+    {
+      "Route": "index.35aw746c2x.html",
+      "AssetFile": "C:\\Users\\fabia\\Uebung1_1\\QuestionsAppSimple\\QuestionsAppSimple\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V1LA7CiH2RVYTJ6KOj1AGL3ncUMUAZff1k8CLn+hyQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 14:03:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "35aw746c2x"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V1LA7CiH2RVYTJ6KOj1AGL3ncUMUAZff1k8CLn+hyQM="
+        }
+      ]
+    },
+    {
+      "Route": "index.35aw746c2x.html.gz",
+      "AssetFile": "C:\\Users\\fabia\\Uebung1_1\\QuestionsAppSimple\\QuestionsAppSimple\\obj\\Debug\\net9.0\\compressed\\u10xmc0ym8-35aw746c2x.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"27cPLxSTZClHHMmdO4KCnjavMTaZbyMqgFpSF5yVav4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 14:03:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "35aw746c2x"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-27cPLxSTZClHHMmdO4KCnjavMTaZbyMqgFpSF5yVav4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\fabia\\Uebung1_1\\QuestionsAppSimple\\QuestionsAppSimple\\obj\\Debug\\net9.0\\compressed\\u10xmc0ym8-35aw746c2x.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000652315721"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1532"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"27cPLxSTZClHHMmdO4KCnjavMTaZbyMqgFpSF5yVav4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 14:03:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"V1LA7CiH2RVYTJ6KOj1AGL3ncUMUAZff1k8CLn+hyQM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V1LA7CiH2RVYTJ6KOj1AGL3ncUMUAZff1k8CLn+hyQM="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\fabia\\Uebung1_1\\QuestionsAppSimple\\QuestionsAppSimple\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V1LA7CiH2RVYTJ6KOj1AGL3ncUMUAZff1k8CLn+hyQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 14:03:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V1LA7CiH2RVYTJ6KOj1AGL3ncUMUAZff1k8CLn+hyQM="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\fabia\\Uebung1_1\\QuestionsAppSimple\\QuestionsAppSimple\\obj\\Debug\\net9.0\\compressed\\u10xmc0ym8-35aw746c2x.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"27cPLxSTZClHHMmdO4KCnjavMTaZbyMqgFpSF5yVav4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 14:03:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-27cPLxSTZClHHMmdO4KCnjavMTaZbyMqgFpSF5yVav4="
+        }
+      ]
+    }
+  ]
+}
