@@ -12,4 +12,7 @@ public class QuestionsContext : DbContext
 
 public class Question
 {
+    public string Content { get; set; }
+    public int Votes { get; set; }
+    public int Id { get; set; }
 }

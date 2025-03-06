@@ -14,7 +14,34 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
     scope.ServiceProvider.GetRequiredService<QuestionsContext>().Database.EnsureCreated();
 
-app.MapGet("/", () => "Hello World!");
+// API Routes
+// Activate static files serving
+app.UseDefaultFiles();
+app.UseStaticFiles();
+app.MapGet("api/questions", async (QuestionsContext context)
+    => await context.Questions.ToListAsync());
+
+app.MapPost("api/questions/", async (QuestionsContext context, string content) =>
+{
+    if (string.IsNullOrWhiteSpace(content))
+        return Results.BadRequest("The Question Content can not be empty");
+
+    context.Questions.Add(new Question { Content = content });
+    await context.SaveChangesAsync();
+    return Results.Ok();
+});
+
+app.MapPost("api/questions/{id:int}/vote", async (QuestionsContext context, int id) =>
+{
+    var question = await context.Questions.FirstOrDefaultAsync(q => q.Id == id);
+    if (question is null)
+        return Results.BadRequest("Invalid Question Id");
+
+    question.Votes++;
+    await context.SaveChangesAsync();
+    return Results.Ok();
+});
+
 // Enable swagger and SwaggerUI in Developer Mode.
 if (app.Environment.IsDevelopment())
 {
